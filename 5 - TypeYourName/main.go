@@ -9,7 +9,7 @@ func main() {
 	fmt.Println("Type your last name")
 	fmt.Scanln(&last)
 
-	fmt.Print("Your Name is " + name(first, last))
+	fmt.Println("Hello " + name(first, last) + ", nice to meet you!")
 
 }
 
